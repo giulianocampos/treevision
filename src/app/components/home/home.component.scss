@@ -1,0 +1,43 @@
+.content {
+    padding: 20px;
+  }
+  
+  .main-title {
+    font-size: 60px;
+    color: green;
+  }
+  
+  .description {
+    color: white;
+  }
+  
+  .title-section {
+    margin-left: 10%;
+    margin-top: 12%;
+  }
+  
+  h2 {
+    margin-bottom: -3%;
+  }
+  
+  .example-card {
+    max-width: 400px;
+  }
+  
+  .card-cares {
+    margin-left: 2%;
+    min-height: 365px;
+    text-align: center;
+    padding: 12px;
+    border-radius: 10px;
+    width: 300px;
+    background-color: #ffffff;
+  }
+  
+  .cards {
+    justify-content: center;
+    margin-top: 4%;
+    display: flex;
+    flex-direction: row;
+  }
+  

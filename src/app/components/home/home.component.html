@@ -2,7 +2,7 @@
     <div class="title-section">
         <h2 class="main-title">TreeVision</h2>
         <div>
-            <mat-grid-list cols="3" rowHeight="250px">
+            <mat-grid-list cols="2" rowHeight="250px">
                 <mat-grid-tile>
                     <p class="description">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui modi,
@@ -13,43 +13,53 @@
                     </p>
                 </mat-grid-tile>
 
-                <mat-grid-tile>
+                <mat-grid-tile class="img-landing">
                     <div>
-                        <img src="../../../assets/images/landing.png">
+                        <!-- <img src="../../../assets/images/cherry-864.png"> -->
                     </div>
                 </mat-grid-tile>
             </mat-grid-list>
         </div>
     </div>
 
-    <div class="cards">
-        <div class="card-cares">
+    <div class="cards-conteiner">
+        <div class="cards">
             <img mat-card-image src="../../../assets/images/cherry-robo-gardener.png" alt="Photo of a Shiba Inu">
             <div>
-                <p>Título 1 - Cuidados</p>
+                <p class="card-title">Cuidados</p>
             </div>
-            <div>
+            <div class="card-description">
                 <p>Manual de cuidados completo para cada planta </p>
                 <!-- https://icons8.com/illustrations/illustration/cherry-picking-bitcoins -->
+                <!-- https://icons8.com/illustrations/style--isometric -->
             </div>
-            <div>
-                <button mat-flat-button color="primary">Primary</button>
-            </div>
+            <div><button mat-flat-button color="primary">Primary</button></div>
         </div>
 
-        <div class="card-cares">
+        <div class="cards">
             <img mat-card-image src="../../../assets/images/cherry-518.png" alt="Photo of a Shiba Inu">
             <div>
-                <p>Título 1 - Cuidados</p>
+                <p>Riscos e Problemas</p>
             </div>
 
+            <div class="card-description">
+                <p>Identifique plantas e árvores que necessitam de ajuda</p>
+            </div>
+
+            <div><button mat-flat-button color="primary">Primary</button></div>
+        </div>
+
+        <div class="cards">
+            <img mat-card-image src="../../../assets/images/cherry-518.png" alt="Photo of a Shiba Inu">
             <div>
+                <p>Cuidados</p>
+            </div>
+
+            <div class="card-description">
                 <p>Manual de cuidados completo para cada planta </p>
             </div>
 
-            <div>
-                <button mat-flat-button color="primary">Primary</button>
-            </div>
+            <div><button mat-flat-button color="primary">Primary</button></div>
         </div>
     </div>
 </div>
